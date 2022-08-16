@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_icon="📈", page_title="Crypto Dashboard")
+st.set_page_config(page_icon="📈", page_title="Claude's Crypto Dashboard")
 
 st.sidebar.image(
     "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/z3ahdkytzwi1jxlpazje",
@@ -17,7 +17,7 @@ with c1:
     )
 
 st.markdown(
-    """# **Crypto Dashboard**
+    """# **Claude's Crypto Dashboard**
 A simple cryptocurrency price app pulling price data from the [Binance API](https://www.binance.com/en/support/faq/360002502072), from [Data Professor](https://twitter.com/thedataprof).
 """
 )
